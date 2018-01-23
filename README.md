@@ -13,7 +13,7 @@ Feature Pyramid Networks for Object Detection
 
 This project use ResNet-101 model converted from Caffe, and you can get it following [RuotianLuo-pytorch-ResNet](https://github.com/ruotianluo/pytorch-resnet).
 
-Since the program loading the data in `faster_rcnn_pytorch/data` by default,
+Since the program loading the data in `pytorch_FPN/data` by default,
 you can set the data path as following.
 ```bash
 cd pytorch_FPN
@@ -35,7 +35,7 @@ cd pytorch_FPN
 python demo.py
 ```
 
-![Image text]（https://github.com/xingmimfl/pytorch_FPN/blob/master/demo/out.jpg)
+![image]（https://github.com/xingmimfl/pytorch_FPN/blob/master/demo/out.jpg)
 
 As [FPN](https://github.com/unsky/FPN) pointed out, anchor sizes for COCO may not suitable for VOC data, you can 
 change anchor size to get better performance.
