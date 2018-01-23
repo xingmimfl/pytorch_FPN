@@ -35,7 +35,7 @@ cd pytorch_FPN
 python demo.py
 ```
 
-![image]（https://github.com/xingmimfl/pytorch_FPN/blob/master/demo/out.jpg)
+![image](https://github.com/xingmimfl/pytorch_FPN/blob/master/demo/out.jpg)
 
 As [FPN](https://github.com/unsky/FPN) pointed out, anchor sizes for COCO may not suitable for VOC data, you can 
 change anchor size to get better performance.
